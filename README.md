@@ -4,6 +4,27 @@ This project simulates reaction-diffusion systems using the Grey-Scott model to 
 
 ## **Installation**
 
+Clone the repository:
+!git clone https://github.com/niv-3/PatternFormation.git
+
+
+Change directory:
+%cd PatternFormation
+
+Install dependencies:
+!pip install -r PatternFormation/requirements.txt
+
+Navigate to the environment folder:
+%cd pattern_formation_env
+
+Run the simulation code:
+!python -m src.pattern_simulation
+
+Visualize output:
+from IPython.display import Image, display
+display(Image(filename='Time_Step_50.png')) #Time step can be adjusted
+
+
 ### **Local Setup (Recommended)**
 
 1. **Clone the Repository**
@@ -34,13 +55,8 @@ Install the Required Dependencies
 
 Install the dependencies listed in requirements.txt: pip install -r requirements.txt
 
+Execute CODE: python -m src.pattern_simulation
 
-Google Colab Setup (For Running in Colab)
-Clone the repository: !git clone https://github.com/niv-3/PatternFormation.git
-
-Install the dependencies using requirements.txt:
-
-!pip install -r PatternFormation/requirements.txt
 
 Usage
 Run the Reaction-Diffusion Simulation
