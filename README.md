@@ -46,7 +46,7 @@ Usage
 Run the Reaction-Diffusion Simulation
 To run the reaction-diffusion simulation, execute the pattern_simulation.py script:
 
-python pattern_simulation.py
+python -m src.pattern_simulation
 
 
 Project Structure
